@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chekpoint DOM</title>
+    <script src="https://kit.fontawesome.com/114d2923a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css
+    ">
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <div id="container-card">
+    <input id="btn1" type="button" value="x" onclick="onClick1()" style="height: 50px; width: 50px;">
+<div id="output">
+    <div class="card1" style="width: 18rem;">
+      <img src="https://img.freepik.com/vecteurs-libre/ensemble-produits-cosmetiques-aloe-vera_23-2147638007.jpg?size=338&ext=jpg&ga=GA1.2.969397407.1671309385&semt=ais" width="300px"; height="300px";>
+      <div class="card-body">
+        <h5 class="card-title">Gamme ALOÉ VERA</h5>
+        <p><span id="pt">3000</span></p>
+        <p><button id="btMoins">-</button><span id="nb">0</span><button id="btPlus">+</button></p>
+
+      </div>
+ 
+    </div>
+    </div>
+    <input id="btn2" type="button" value="x" onclick="onClick1()" style="height: 50px; width: 50px;">
+<div id="output2">
+    <div class="card2" style="width: 18rem;">
+      <img src="https://img.freepik.com/vecteurs-libre/ensemble-accessoires-beaute_23-2147822921.jpg?size=338&ext=jpg&ga=GA1.2.969397407.1671309385&semt=ais" width="300px"; height="300px";>
+      <div class="card-body">
+        <h5 class="card-title">Gamme ROSE BODY</h5>
+        <p><span id="pt2">6000</span></p>
+        <p><button id="btMoins2">-</button><span id="nb2">0</span><button id="btPlus2">+</button></p>
+      </div>
+
+      </div>
+    </div>
+    <input id="btn3" type="button" value="x" onclick="onClick1()" style="height: 50px; width: 50px;">
+<div id="output3">
+    <div class="card3" style="width: 18rem;">
+      <img src="https://img.freepik.com/vecteurs-libre/affiche-concept-pour-creme-naturelle-bio_88138-50.jpg?size=626&ext=jpg&ga=GA1.2.969397407.1671309385&semt=ais" width="300px"; height="300px";>
+      <div class="card-body">
+        <h5 class="card-title">Gamme BRAND</h5>
+        <p><span id="pt3">4000</span></p>
+        <p><button id="btMoins3">-</button><span id="nb3">0</span><button id="btPlus3">+</button></p>
+      </div>
+
+      </div>
+    </div>
+    <input id="btn4" type="button" value="x" onclick="onClick1()" style="height: 50px; width: 50px;">
+    <div id="output4">
+    <div class="card4" style="width: 18rem;">
+      <img src="https://img.freepik.com/vecteurs-libre/composition-pinceaux-maquillage-realiste_1284-25929.jpg?size=338&ext=jpg&ga=GA1.2.969397407.1671309385&semt=sph" width="300px"; height="300px";>
+      <div class="card-body">
+        <h5 class="card-title">Pinceau</h5>
+        <p><span id="pt4">7000</span></p>
+        <p><button id="btMoins4">-</button><span id="nb4">0</span><button id="btPlus4">+</button></p>
+      </div>
+
+      </div>
+    </div>
+
+    <div id="container-card2">
+      <input id="btn5" type="button" value="x" onclick="onClick1()" style="height: 50px; width: 50px;">
+      <div id="output5">
+    <div class="card5" style="width: 18rem;">
+      <img src="https://img.freepik.com/vecteurs-libre/assortiment-rouge-levres_1284-16253.jpg?size=338&ext=jpg&ga=GA1.2.969397407.1671309385&semt=sph" width="300px"; height="300px";>
+      <div class="card-body">
+        <h5 class="card-title">Rouge à lèvre</h5>
+        <p><span id="pt5">1000</span></p>
+        <p><button id="btMoins5">-</button><span id="nb5">0</span><button id="btPlus5">+</button></p>
+      </div>
+
+      </div>
+    </div>
+    <input id="btn6" type="button" value="x" onclick="onClick1()" style="height: 50px; width: 50px;">
+<div id="output6">
+       <div class="card6" style="width: 18rem;">
+      <img src="https://img.freepik.com/vecteurs-libre/conception-couronne-cosmetique-recourbe-cils-eye-liner-pinceau_83728-1850.jpg?size=338&ext=jpg&ga=GA1.2.969397407.1671309385&semt=sph" width="300px"; height="300px";>
+      <div class="card-body">
+        <h5 class="card-title">Gamme Makeup</h5>
+        <p><span id="pt6">9000</span></p>
+        <p><button id="btMoins6">-</button><span id="nb6">0</span><button id="btPlus6">+</button></p>
+      </div>
+
+      </div>
+    </div>
+    <input id="btn7" type="button" value="x" onclick="onClick1()" style="height: 50px; width: 50px;">
+<div id="output7">
+    <div class="card7" style="width: 18rem;">
+      <img src="https://img.freepik.com/vecteurs-libre/composition-3d-cosmetiques_1284-35838.jpg?auto=format&h=200" width="300px"; height="300px";>
+      <div class="card-body">
+        <h5 class="card-title">Gamme Goyave</h5>
+        <p><span id="pt7">12000</span></p>
+        <p><button id="btMoins7">-</button><span id="nb7">0</span><button id="btPlus7">+</button></p>
+      </div>
+
+      </div>
+    </div>
+    <input id="btn8" type="button" value="x" onclick="onClick1()" style="height: 50px; width: 50px;">
+<div id="output8">
+    <div class="card8" style="width: 18rem;">
+      <img src="https://img.freepik.com/vecteurs-premium/produits-cosmetiques-maquillage-vecteur-pour-salon-beaute_103044-2612.jpg?size=338&ext=jpg&ga=GA1.2.969397407.1671309385&semt=ais" width="300px"; height="300px";>
+      <div class="card-body">
+        <h5 class="card-title">Gamme Aubergine enfant</h5>
+        <p><span id="pt8">5000</span></p>
+        <p><button id="btMoins8">-</button><span id="nb8">0</span><button id="btPlus8">+</button></p>
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js
+      ">
+
+
+
+      <script src="script.js" src="compteur.js"></script>
+      
+    </body>
+</html>
